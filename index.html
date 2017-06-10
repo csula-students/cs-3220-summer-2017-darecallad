@@ -1,64 +1,76 @@
-<<html lang = "en">
+<html lang = "en">
 	<head>
-		<title> &lt Welcome come to AAA restaurant &gt </title>
+		<title> &lt AAA R=E=S=T=A=U=R=A=N=T! &gt </title>
 
 		<style type="text/css">
 			button {
 				background-color: #333;
 				color: #fff;
 				padding: 0.5em, 1em;
+				width: 263px; height: 50px;
 			}
-
-			label{
-				font-size: 0.8em;
-				font-color: #333;
+			table ,th, td {
+				border: 1px solid black;
 			}
-			input{
-				font-size: 16px;
-				padding: 0.5em 1em;
-			}
+			
 
 		</style>
 
 	</head>
 
-	<body>
+	<body background="back.jpg" style = "width : 1000px; height :800px">
 
-		<article>
+<article>
 		<header>
 
 
-		<h1>AAA R=E=S=T=A=U=R=A=N=T!</h1>
-			<img src="restaurants.jpg" alt = "Cover Photo" 
+		
+		<h1>Welcome to AAA resuaurant</h1>
+		<p>open time: 10:00 am ~ 4:00 pm on Sat. in summer</p>
+		<img src="restaurants.jpg" alt = "Cover Photo" 
 		style = "width: 800px; height: 500 px">
-		<h3>open in summer only</h3>
-		<p>open time: 10:00 am ~ 4:00 pm on Sat.</p>
+
+		
 
 </header>
 </article>
-
-		<button>P======</button>
-		<button>S======</button>
+		<button>HOME PAGE</button>
+		<button>MENU</button>
+		<button>STATUS</button>
 		
-		<label for ="name">Name</label>
-		<input type="text" id="name">
-		<label for ="age">Age</label>
-		<input type="number" id="age">
+		
 
+<p> Order States</p>
 		<table>
-	<thead>
+	<thead> 
 		<tr>
-			<th>Name</th>
+			<th>Item Name</th>
+			<th>Picture</th>
 			<th>Price</th>
 		</tr>
 	</thead>
 		<tbody>
 		<tr>
 			<td>Hambuger</td>
+			<td><img src="ham1.jpg" alt = buger pic style=" width: 200px; height: 150 px"></td>
 			<td>$15.99</td>
+		</tr>
+		<tr>
+			<td>Pasta</td>
+			<td><img src="pasta.jpg" alt = pasta pic style = "width :200 px; height: 150 px"></td>
+			<td>$16.00</td>
+		</tr>
+		<tr>
+			<td>Fries</td>
+			<td><img src="fries.jpg" alt = fries pic style = "width : 200px; height: 150 px" ></td>
+			<td>$8.50</td>
 		</tr>
 	</tbody>
 		</table>
+
+		<footer>
+			<p>@2017 summer Chung An Chen.. </p>
+		</footer>
 	</body>
 
 </html>
