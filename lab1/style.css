@@ -1,7 +1,9 @@
-h1,h2,h3,h4,p{
-	color: black;
+h2,h3,h4,p{
+	color : black;
 }
-
+h1{
+	color : #ff6699;
+}
 
 button {
 				background-color: #333;
@@ -15,7 +17,7 @@ table ,th, td {
 				
 			}
 th, td {
-	padding : 5px;
+	padding : 50px;
 }
 
 .button1{
@@ -23,6 +25,5 @@ th, td {
 }
 
 .background{
-				width : 1000px; height :800px;
+				
 }
-
