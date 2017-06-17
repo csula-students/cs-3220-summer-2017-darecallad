@@ -20,10 +20,10 @@ th, td {
 	padding : 50px;
 }
 
-.button1{
-
-}
-
-.background{
-				
-}
+	body{
+		background-image : url("background.jpeg");
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size:cover;
+		background-size: cover;
+	}
