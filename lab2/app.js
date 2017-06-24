@@ -56,7 +56,7 @@ class Cart {
 
     // remove an item from shopping cart
     removeItem (item) {
-        var dele = document.getItem
+
         // TODO: logic to remove an item from cart
         // call render method when the item is removed to update view
         this.render();
@@ -70,7 +70,9 @@ class Cart {
         let result = '';
        
         for(var i = 0; i < this.store.cartItems.length; i ++){
-            result += `<tr><td>${this.store.cartItems[i].name }</td><td>${this.store.cartItems[i].price}</td></tr>`;
+            result += `<tr><td>${this.store.cartItems[i].name }
+            </td><td>${this.store.cartItems[i].price}</td>
+            <td><button class = "deletebutton" data-id="deletebutton">Delete</button></td></tr>`;
            
             
         }
@@ -83,12 +85,28 @@ class Cart {
     // render a list of item under root element
     render () {
         console.log(this.store.cartItems);
+         
+
         let tbody = this.root.querySelector('tbody');
         let thead = this.root.querySelector('thead');
         this.td = `${this.addItemtoCart()}`;
         
         // using innerHTML to render a list of table row item under tbody
         tbody.innerHTML = this.addItemtoCart();
+
+        let deletebutton = this.root.querySelectorAll('.deletebutton');
+        debugger;
+        
+        for(var i = 0; i < deletebutton.length; i ++){
+            let deleteBtn = deletebutton[i];
+            let deletelist = this.store.cartItems;
+            deleteBtn.addEventListener('click',( )=>{
+                deletelist.splice(0,1);
+                this.store.cartItems = deletelist;
+                alert("delete item");
+                this.render();
+            });
+        }
         
     }
 }

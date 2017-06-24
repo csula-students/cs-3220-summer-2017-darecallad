@@ -1,0 +1,13 @@
+Age
+Eye Color
+Profession
+
+25, blue, doctor
+34, brown, pilot
+25, brown, uber driver
+25, green, doctor
+34, green, uber driver
+36, yellow, porn star
+78, orange, basketball player
+
+34, brown, work

@@ -1,0 +1,11 @@
+	body{
+		background-image : url("background.jpeg");
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size:cover;
+		background-size: cover;
+	}
+
+	table, th, td{
+		border: 1px solid blue;
+	}
