@@ -1,0 +1,29 @@
+h2,h3,h4,p{
+	color : black;
+}
+h1{
+	color : #ff6699;
+}
+
+button {
+				background-color: #333;
+				color: #fff;
+				padding: 0.5em, 1em;
+				width: 263px; height: 50px;
+			}
+
+table ,th, td {
+				border: 1px solid black;
+				
+			}
+th, td {
+	padding : 50px;
+}
+
+	body{
+		background-image : url("background.jpeg");
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size:cover;
+		background-size: cover;
+	}
