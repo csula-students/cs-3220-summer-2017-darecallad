@@ -95,13 +95,15 @@ class Cart {
         tbody.innerHTML = this.addItemtoCart();
 
         let deletebutton = this.root.querySelectorAll('.deletebutton');
-        debugger;
+        
         
         for(var i = 0; i < deletebutton.length; i ++){
             let deleteBtn = deletebutton[i];
             let deletelist = this.store.cartItems;
+            let index = i;
             deleteBtn.addEventListener('click',( )=>{
-                deletelist.splice(0,1);
+                
+                deletelist.splice(index,1);
                 this.store.cartItems = deletelist;
                 alert("delete item");
                 this.render();
