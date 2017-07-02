@@ -34,7 +34,6 @@ class Store {
         this.storage.setItem(this.FOODS_KEY, JSON.stringify(foods));
     }
 }
-
 class Cart {
     // take dom element into JavaScript class to attachment events
     constructor(root, store) {
