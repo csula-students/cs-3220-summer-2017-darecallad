@@ -1,68 +1,71 @@
-<!DOCTYPE html>
-<html lang= "en">
-<head>
-<link rel="stylesheet" type="text/css" href="app.css">
+<html lang = "en"> 
+<head>	
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src = "app.js"></script>
+<title>Menu</title>
 
-	<title>Italian Resuaurant</title>
 </head>
 
-<body>
+<body> 
+
+
 <article>
 	<header>
-		<h1> Welcome to Italian Resuaurant</h1>
-		<p> we are dog friendly </p>
-		<p>opening 11:00 am to 9:00 pm everyday</p>
-		<a href="">Home Page</a>
-		<a href="">Statuses</a>
-		<a href="">Food order form</a>
+		<h1>Welcome to Italian resuaurant</h1>
+		<p>open time: 10:00 am ~ 4:00 pm on Sat. in summer</p>
+		
+		<a href= "Index.html">HOME PAGE </a>
+		<a href= "Menu.html">MENU</a>
+		<a href="Statuses.html">STATUS</a>
+		<a href="checkout.html">Checkout</a>
+		<a href="Admin.html">ADMIN</a>
+
+		<h2>Menu Section</h2> 
 	</header>
 </article>
+
+
+
+
 <p> Today's Menu</p>
-<table calss = "talbe1">
-		<thead>
-			<tr>
-				<th>Item Name</th>
-				<th>Picture</th>
-				<th>Ingredients</th>
-				<th>Price</th>
-				<th>Choose</th>
-			</tr>
-		</thead>
+<table class = "table1">
+	<thead> 
+		<tr>
+			<th>Item Name</th>
+			<th>Picture</th>
+			<th>Ingredients</th>
+			<th>Price</th>
+			<th>Choose</th>
+		</tr>
+	</thead>
 		<tbody>
 		<tr>
-			<td>Red Pasta</td>
-			<td><img src= "pasta.jpg"></td>
-			<td>egg,noodles,sugar,red sauce</td>
-			<td>$10.00</td>
-			<th><button class = "buttonch">Order Red Pasta</th>
+			<td>Hambuger</td>
+			<td><img src="ham1.jpg" alt = buger pic style=" width: 200px; height: 150 px"></td>
+			<td>egg,mustard,onion,salt,pepper,ground beef</td>
+			<td>$15.99</td>
+			<td><button class = "checkout-button" data-name = " Hambuger" data-price = "15.99"> Order Hambuger</button></td>
 		</tr>
 		<tr>
-			<td>White Pasta</td>
-			<td><img src = "whpasta.jpg"></td>
-			<td>egg,noodles,sugar,white sauce</td>
-			<td>$10.00</td>
-			<td><button class = "buttonch">Order White Pasta</td>
+			<td>Pasta</td>
+			<td><img src="pasta.jpg" alt = pasta pic style = "width :200 px; height: 150 px"></td>
+			<td>fettuccine,milk,broccoli,butter</td>
+			<td>$16.00</td>
+			<td><button class = "checkout-button" data-name = "pasta" data-price = "16.00">Order Pasta</button></td>
 		</tr>
 		<tr>
-			<td>Italian Bread</td>
-			<td><img src = "bread.jpg", style = width: 300px, height: 400px></td>
-			<td>white bread,tuna,sauce</td>
-			<td>$8.00</td>
-			<td><button class = "buttonch">Order Italian Bread</td>
+			<td>Fries</td>
+			<td><img src="fries.jpg" alt = fries pic style = "width : 200px; height: 150 px" ></td>
+			<td>potatoes,canola,sugar,salt</td>
+			<td>$8.50</td>
+			<td><button class = "checkout-button" data-name = "fries" data-price = "8.50" >Order Fries</button></td>
 		</tr>
-		<tr>
-			<td>Italian Pizza</td>
-			<td><img src = "pizza.jpg"></td>
-			<td>bread,sauce</td>
-			<td>$10.00</td>
-			<td><button class = "buttonch">Order Italian Pizza</td>
-		</tr>
-		</tbody>
-	</table>
+	</tbody>
+		</table>
 
-	<footer>
-		<p>@2017 Summer Chung An Chen..</p>
-	</footer>
-
+		<footer>
+			<p>@2017 summer Chung An Chen.. </p>
+		</footer>
 </body>
+
 </html>
