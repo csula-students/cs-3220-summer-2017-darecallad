@@ -1,0 +1,41 @@
+<html lang = "en">
+<head>
+<link rel="stylesheet" type="text/css" href="tip.css">
+<script type="text/javascript" src = "tip.js"></script>
+	<title>Tip Calculator</title>
+</head>
+<body >
+<article>
+	<header>
+	<h1>Tip Calculator</h1>
+	</header>
+</article>
+
+<fieldset>
+			<legend>Bill</legend>
+			<label for = "Bill-number"></label>
+			<input type="text" name="Bill-number" id = "Bill-number"><br>
+		</fieldset>
+		<fieldset>
+			<legend>Tip %</legend>
+			<label for = "tip_percentage"></label>
+			<input type="text" name="tip_percentage" id = "tip_percentage" onblur = 'Calculate();'><br>
+		</fieldset>
+		<button class = "Calculator-button" onClick = "Calculate();" value = "calculate" type = "button">Calculate Tip</button>
+		<fieldset>
+			<legend>Tip </legend>
+			<label for = "Tip-result"></label>
+			<form name = "testarea" method=" Get" Action = "tip.html" id = 'form1'>
+			<input type="text " name="Tip-result" id = "Tip-result"><br>
+			</form>
+		</fieldset>
+		<fieldset>
+			<legend>Total</legend>
+			<label for = "Total-number"></label>
+			<form name = "testarea" method=" Get" Action = "tip.html" id = 'form2'>
+			<input type="text" name="Tip-number" id = "Tip-number"><br>
+		</fieldset>
+
+		
+</body>
+</html>
